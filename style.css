@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.firstpic {
+  width : 40%;
+  
+}
+.secondpic {
+  width : 40%;
+}
+.description {
+  text-align: center;
+}
+.secondpictext {
+  color: purple;
+}
+.header{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  color: white;
+  background-color : lightpink;
+}
+
+
+.header2 {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.header-left {
+  width: 40;
+}
+.about {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.header-right {
+  width: 60%;
+}
+
+.header-img {
+  max-width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightpink;
+  color: white;
+  padding: 10px 0;
+}
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+  }
+header-button {
+    background-color: #3498db; 
+    text-align: center; 
+    font-size: 16px; 
+    color: #ffffff; 
+    padding: 10px 20px;  
+    margin: 5px; 
+    border: 2px solid #2980b9;
+    cursor: pointer; 
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.footer a {
+    color: lightpink;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/* Customize Dark Mode Theme */
+
+#darkModeButton {
+  padding: 10px 20px;
+  background-color: pink;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#darkModeButton:hover {
+  background-color:black;
+  color: white;
+}
+
+.dark-mode {
+  background-color: black;
+  color: #fff;
+}
+
+.petition-container { 
+ display: flex;
+ flex direction: row;
+ gap: 20px;
+ width: 100;
+ padding-bottom: 50px;
+}
+.petition-para {
+  width: 55%;
+  padding-right: 10px;
+}
+.signatures {
+  width: 45%;
+  padding-right: 10px;
+}
+
+.firstpic {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+/* CSS rule for the active class */
+.secondpic {
+  transform: translateY(0px);
+  opacity: 1;
